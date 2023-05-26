@@ -49,7 +49,7 @@ function Details({ darkMode, setDarkMode }) {
           <p className="pl-2 dark:text-white">Back</p>
         </Link>
 
-        <div className="relative w-[563px] h-[403px] bg-inherit left-[74px] md:top-[240px] top-[150px] shadow-2xl">
+        <div className="relative w-[563px] h-[403px] bg-inherit left-[74px] md:top-[240px] top-[150px] shadow-2xl hover:scale-105 duration-300">
           <img
             className="max-h-full min-h-full min-w-full max-w-full"
             src={shortData[0].flags.svg}
