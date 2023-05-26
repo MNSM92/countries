@@ -20,7 +20,7 @@ function Details({ darkMode, setDarkMode }) {
     return (
       <Link
         key={item}
-        className="px-2 dark:bg-gray-700 font-normal rounded-sm shadow-lg border-1 shadow-md"
+        className="px-2 dark:bg-gray-700 font-normal rounded-sm shadow-lg border-1"
         to={`/${countryName.toLowerCase()}`}
       >
         {countryName}
