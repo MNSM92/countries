@@ -26,7 +26,7 @@ function Home({ darkMode, setDarkMode }) {
 
   const Data = filteredData.map((item) => (
     <>
-      <div className="col-span-1 flex flex-col items-start justify-start shadow-xl rounded-lg text-black dark:text-white w-72 h-80 pb-44 dark:bg-gray-700 bg-white">
+      <div className="col-span-1 flex flex-col items-start justify-start shadow-xl rounded-lg text-black dark:text-white w-72 h-80 pb-44 dark:bg-gray-700 bg-white hover:scale-105 duration-300">
         <Link
           to={`/${item.name.toLowerCase()}`}
           className="relative top-0 min-w-[100%] rounded-lg"
